@@ -4,7 +4,7 @@
 # Installation using MySQL
 1. Clone the git repository
 ```git
-git clone https://github.com/Fafikk/todo-list.git
+[git clone https://github.com/Ega-Yogiantara/unit-and-feature-test_Ega.git)
 ```
 2. Install composer dependencies
 ```bash
