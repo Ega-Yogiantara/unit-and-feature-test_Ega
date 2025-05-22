@@ -27,12 +27,28 @@ class ItemController extends Controller
                 Tag::create([
                     'tag_name' => $tagName,
                     'task_id' => $tasks->id,
+
+                    // 'task_id' => $task->id,
                 ]);
             }
         }
 
         return to_route('dashboard');
     }
+
+    // Perbaikan
+    // public function delete($id)
+    // {
+    //     $to_delete = Task::where('id', $id)->firstOrFail();
+        
+    //     // Delete associated tags first
+    //     Tag::where('task_id', $id)->delete();
+        
+    //     $to_delete->delete();
+
+    //     return to_route('dashboard');
+    // }
+
 
     public function delete($id)
     {
