@@ -26,3 +26,11 @@ php artisan migrate
 ```bash
 php artisan serve
 ```
+
+Hasil Unit Test
+![image](https://github.com/user-attachments/assets/dfd19888-5e52-4eb6-86e8-63b120ce9678)
+
+Hasil Feature Test
+![image](https://github.com/user-attachments/assets/bf19bd07-f94f-4b2d-bd6a-63789a1cc854)
+
+
